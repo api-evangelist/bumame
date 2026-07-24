@@ -1,7 +1,23 @@
 aid: bumame
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bumame.png
 name: Bumame
-description: Bumame is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bumame is an Indonesian healthcare provider ("Elevating Indonesian Healthcare") delivering global-standard
+  health screening and preventive-care services to Indonesian families. It operates a network of clinics and offers
+  medical check-up packages, laboratory testing, vaccination and boosters, maternal and child health services, early
+  cancer screening and genetic DNA testing, vitamin infusions, home care, doctor consultations, and corporate health
+  programs, with online appointment booking. Backed by 500 Global. Surfaced as a portfolio-company lead in the API
+  Evangelist network; no public developer API surface has been found to date.
 url: https://raw.githubusercontent.com/api-evangelist/bumame/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health Screening
+- Laboratory
+- Diagnostics
+- Preventive Care
+- Telehealth
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://bumame.com
+- type: PrivacyPolicy
+  url: https://bumame.com/privacy-policy
+- type: TermsOfService
+  url: https://bumame.com/terms-condition
+- type: Blog
+  url: https://bumame.com/news
+- type: Support
+  url: https://bumame.com/reach-us
+- type: DomainSecurity
+  url: security/bumame-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
